@@ -3,21 +3,21 @@
 // во выполненных задач содержатся как свойства объекта в формате "имя": "кол-во задач".
 
 
-const findBestEmployee = function (employees) {
-    'use strict';
+// const findBestEmployee = function (employees) {
+//     'use strict';
     
-    let biggerNum = 0;
-    let bestName = '';
+//     let biggerNum = 0;
+//     let bestName = '';
 
-    for (let someEmploye in employees) {
-        if (employees[someEmploye] > biggerNum) {
-            biggerNum = employees[someEmploye];
-            bestName = someEmploye
-         }
-    }
+//     for (let someEmploye in employees) {
+//         if (employees[someEmploye] > biggerNum) {
+//             biggerNum = employees[someEmploye];
+//             bestName = someEmploye
+//          }
+//     }
     
-  return bestName
-};
+//   return bestName
+// };
 
 // // Объекты и ожидаемый результат
 // const developers = {

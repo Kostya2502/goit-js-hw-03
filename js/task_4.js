@@ -4,14 +4,14 @@
 
 
 
-const countTotalSalary = function (employees) {
-  'use strict';
-    let total = 0;
-    for (let num in employees){
-total += employees[num]
-     }
-  return total
-};
+// const countTotalSalary = function (employees) {
+//   'use strict';
+//     let total = 0;
+//     for (let num in employees){
+// total += employees[num]
+//      }
+//   return total
+// };
 
 
 // const developers = {
@@ -29,3 +29,4 @@ total += employees[num]
 // }
 // console.log(countTotalSalary(supports));
 // // 500
+

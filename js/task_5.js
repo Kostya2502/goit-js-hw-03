@@ -4,18 +4,18 @@
 
 
 
-function getAllPropValues(array, prop) {
-  'use strict';
-    let total = [];
-    for (let i = 0; i < array.length; i += 1) { 
-        if (prop in array[i]) {
-            total.push(array[i][prop])
-        }
+// function getAllPropValues(array, prop) {
+//   'use strict';
+//     let total = [];
+//     for (let i = 0; i < array.length; i += 1) { 
+//         if (prop in array[i]) {
+//             total.push(array[i][prop])
+//         }
         
-    }
+//     }
 
-  return total
-}
+//   return total
+// }
 
 // // Объекты и ожидаемый результат
 // const products = [
@@ -36,3 +36,31 @@ function getAllPropValues(array, prop) {
 
 // console.log(getAllPropValues(products, 'category'));
 // //  []
+
+
+
+
+
+
+
+
+// const products = [
+//   { name: 'Радар', price: 1300, quantity: 4 },
+//   { name: 'Сканер', price: 2700, quantity: 3 },
+//   { name: 'Дроид', price: 400, quantity: 7 },
+//   { name: 'Захват', price: 1200, quantity: 2 },
+// ];
+
+// const getAllPropValues = function(arr, prop) {
+//     let newArr = [];
+//     for (const item of arr) { 
+//         if (item[prop]) { newArr.push(item[prop])}
+//     }
+//     return newArr
+// };
+
+// console.log(getAllPropValues(products, 'name')); // ['Радар', 'Сканер', 'Дроид', 'Захват']
+
+// console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
+
+// console.log(getAllPropValues(products, 'category')); // []

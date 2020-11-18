@@ -1,26 +1,26 @@
-let message = '';
-const user = {
-  age: 20,
-  hobby: 'html',
-  name: 'Mango',
-  premium: true,
-};
+// let message = '';
+// const user = {
+//   age: 20,
+//   hobby: 'html',
+//   name: 'Mango',
+//   premium: true,
+// };
  
-user.hobby = 'skydiving';
-user.premium = false;
-user.mood = 'happy';
-user['full time'] = true;
+// user.hobby = 'skydiving';
+// user.premium = false;
+// user.mood = 'happy';
+// user['full time'] = true;
 
  
-const keys = Object.keys(user);
-for (let key of keys) {
-     message += `${key} : ` + `${user[key]}\n`;
-}
+// const keys = Object.keys(user);
+// for (let key of keys) {
+//      message += `${key} : ` + `${user[key]}\n`;
+// }
 
 
  
  
-console.log(message); 
+// console.log(message); 
 
 // age : 20 
 // hobby : skydiving 
@@ -28,3 +28,7 @@ console.log(message);
 // premium : false 
 // mood : happy 
 // "full time" : true 
+
+
+
+
